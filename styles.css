@@ -1,0 +1,32 @@
+﻿body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 20px;
+
+}
+
+
+h1, h2 {
+
+  margin-bottom: 10px;
+
+}
+
+
+select, input {
+
+  margin-bottom: 10px;
+
+}
+
+
+button {
+
+  padding: 10px;
+
+  font-size: 18px;
+
+}

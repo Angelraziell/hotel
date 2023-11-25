@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hotel Booking Portal</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+ <div class="room-container">
+ <div class="room">
+      <img src="room1.jpg" alt="Room 1">
+
+      <h2>Deluxe Room</h2>
+
+      <p>Price: $200/night</p>
+      <input type="date" class="date-selection">
+      <p>Select number of nights:</p>
+
+  <input type="number" id="numNights" min="1">
+      <button onclick="showReservationForm()">Next</button>
+</div>
+    
+   <div class="room">
+
+      <img src="room2.jpg" alt="Room 2">
+
+      <h2>Executive Suite</h2>
+
+      <p>Price: $300/night</p>
+      <input type="date" class="date-selection">
+    <p>Select number of nights:</p>
+
+  <input type="number" id="numNights" min="1">
+      <button onclick="showReservationForm()">Next</button>
+
+    </div>
+    
+    <div class="room">
+
+      <img src="room3.jpg" alt="Room 3">
+
+      <h2>Premium Suite</h2>
+
+      <p>Price: $400/night</p>
+      <input type="date" class="date-selection">
+      <p>Select number of nights:</p>
+
+  <input type="number" id="numNights" min="1">
+      <button onclick="showReservationForm()">Next</button>
+
+    </div>
+
+  </div>
+
+<h1>Room Selection</h1>
+
+  <p>Select a room type:</p>
+
+  <select id="roomType">
+   <option value="executive">Executive Room</option>
+
+    <option value="deluxe">Deluxe Room</option>
+
+    <option value="premium">Premium Suite</option>
+
+
+
+  <br>
+
+  <p>Select number of nights:</p>
+
+  <input type="number" id="numNights" min="1">
+
+  <br>
+
+  <button onclick="showReservationForm()">Next</button>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
